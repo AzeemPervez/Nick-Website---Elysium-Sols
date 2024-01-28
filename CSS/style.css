@@ -1,0 +1,350 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: rgb(255, 255, 255);
+    color: black;
+  }
+  
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 25%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    z-index: 1000;
+  }
+  
+  .logo {
+    /* Adjust padding or margins as needed */
+    padding-left: 4.5%;
+  }
+  
+  .nav-items li {
+    display: inline-block;
+    margin-right: 4vw;
+  }
+  
+  .nav-items a {
+    text-decoration: none;
+    color: black;
+    font-size: 3.5vh;
+    font-style: italic;
+  }
+  
+  .content {
+    padding: 2rem;
+    margin-top: 8rem; /* Adjust for navbar height */
+    background-color: white;
+    text-align: left;
+  }
+  
+  .content p {
+    margin-left: 2.5%;
+    font-size: 14vh; /* Adjust for desired text size */
+    font-weight: 200;
+    margin-top: 35vh;
+    font-style: italic;
+  }
+  
+  .red-word {
+    color: red;
+  }
+ .Section-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .Inner-section{
+    
+  }
+  
+  .heading1 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+    padding: 10px 5px 10px 5px;
+    width: 8vw;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 20px;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: grey;
+  }
+  
+  .image-container {
+    overflow-x: scroll;
+    white-space: nowrap;
+  }
+  
+  .image-container img {
+    width: 300px; /* Adjust as needed */
+    height: 200px; /* Adjust as needed */
+    margin-right: 10px;
+  }
+  
+  
+  .image-container2 {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .image-container2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure image covers the entire container */
+  }
+  
+  .dialogue-box {
+    position: absolute;
+    top: 43%;
+    right: 15%;
+    transform: translateY(-50%); /* Vertically center the box */
+    background-color: white;
+    padding: 20px;
+    height: 70vh;
+    width: 30vw;
+    border-radius: 0px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    text-align: left;
+  }
+  .dialogue-box > p{
+    margin-top: 20vh;
+    font-size: 1.5rem;
+    padding-left: 3vw;
+  }
+  .passions_1 {
+    background-color: black;
+    color: white;
+    text-align: left;
+    margin-left: 42px;
+    padding: 10px 5px 10px 5px;
+    width: 23vw;
+  }
+  .container {
+    display: flex;
+  }
+  
+  .image-section {
+    flex: 0 0 50%; /* Take up 50% of the width, but remain flexible */
+  }
+  
+  .image-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure image covers the entire container */
+  }
+  
+  .text-section {
+    flex: 1; /* Take up the remaining space */
+    height: 117.5vh;
+    width: 100%;
+    background-color: black;
+  }
+  .text-section > p {
+    color: white;
+  }
+  body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+  
+  margin-top: 0vh;
+  margin-bottom: 5vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0px; /* Space between image blocks */
+}
+
+.image-block {
+    text-align: center;
+}
+
+.image-block img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Center the image */
+}
+
+h6, h2, p {
+    margin: 5px 0; /* Spacing around text elements */
+}
+.section-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-left: 0vw;
+}
+.line{
+  width: 5px;
+  height: 25vh;
+  background-color: red;
+}
+.content-block {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* Space between content blocks */
+}
+
+.content-block img {
+    width: 150px; /* Adjust as needed */
+    height: 100px; /* Adjust as needed */
+    margin-right: 10px;
+}
+
+.text-block {
+  max-width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.top-section h2 {
+    margin: 10px 0;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: white;
+    margin: 20px 0;
+}
+
+.bottom-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bottom-section nav {
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.bottom-section a {
+    color: white;
+    text-decoration: none;
+    margin: 5px 0;
+    display: block;
+}
+
+.info {
+    text-align: left;
+    margin-top: 15px;
+    width: 100%;
+    padding-left: 5vw;
+    padding-bottom: 5vh;
+}
+
+/* Responsive adjustments if needed */
+@media (max-width: 600px) {
+    .bottom-section {
+        align-items: flex-start;
+    }
+    .content p {
+      font-size: 9vh; /* Adjust for desired text size */
+      margin-top: 30vh;
+    }
+    .heading1 {
+      background-color: black;
+      color: white;
+      text-align: center;
+      
+      padding: 10px 5px 10px 5px;
+      width: 25vw;
+      height: 5vh;
+    }
+    nav ul {
+      
+      flex-direction: column;
+      
+    }
+    nav ul li {
+      margin-bottom: 5vh;
+    }
+    .image-container {
+      display: flex;
+      flex-direction: column;
+    }
+    .dialogue-box {
+      position: absolute;
+      top: 43%;
+      right: 15%;
+      transform: translateY(-50%); /* Vertically center the box */
+      background-color: white;
+      padding: 20px;
+      height: 60vh;
+      width: 60vw;
+      border-radius: 0px;
+      box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+      text-align: left;
+    }
+    .passions_1 {
+      background-color: black;
+      color: white;
+      text-align: left;
+      margin-left: -15px;
+      padding: 10px 5px 10px 5px;
+      width: 65vw;
+    }
+    .navbar{
+      height: 10%;
+    }
+    .image-section {
+      display: flex;
+      flex-direction: column;
+      flex: 0 0 100%;
+    }
+    .nav-items {
+      display: none;
+    }
+  }
