@@ -5,6 +5,14 @@ body {
     color: black;
   }
   
+  body, html {
+    overflow-x: hidden; /* Hide horizontal overflow */
+}
+
+.container, .row, .column {
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
   .navbar {
     position: fixed;
     top: 0;
@@ -23,8 +31,10 @@ body {
     /* Adjust padding or margins as needed */
     padding-left: 4.5%;
   }
-  
-  .nav-items li {
+  nav > img {
+    display: none;
+  }
+    .nav-items li {
     display: inline-block;
     margin-right: 4vw;
   }
@@ -291,7 +301,7 @@ hr {
         align-items: flex-start;
     }
     .content p {
-      font-size: 9vh; /* Adjust for desired text size */
+      font-size: 7vh; /* Adjust for desired text size */
       margin-top: 30vh;
     }
     .heading1 {
@@ -300,7 +310,7 @@ hr {
       text-align: center;
       
       padding: 10px 5px 10px 5px;
-      width: 25vw;
+      width: 30vw;
       height: 5vh;
     }
     nav ul {
@@ -314,6 +324,10 @@ hr {
     .image-container {
       display: flex;
       flex-direction: column;
+    }
+    .image-container > img{
+      width: 90vw;
+      height: 40vh;
     }
     .dialogue-box {
       position: absolute;
@@ -338,6 +352,7 @@ hr {
     }
     .navbar{
       height: 10%;
+      width: 100%;
     }
     .image-section {
       display: flex;
@@ -346,5 +361,9 @@ hr {
     }
     .nav-items {
       display: none;
+    }
+    nav > img {
+      display: flex;
+      margin-left: 10vw;
     }
   }
