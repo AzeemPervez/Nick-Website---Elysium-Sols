@@ -177,9 +177,15 @@ body {
     height: 117.5vh;
     width: 100%;
     background-color: black;
+    
   }
-  .text-section > p {
+  .text-section > div {
+    margin-left: 5vw;
+    margin-top: 5vw;
+  }
+  .text-section > div > p {
     color: white;
+    margin-left: 3vw;
   }
   body {
     text-align: center;
@@ -240,6 +246,7 @@ h6, h2, p {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: left;
 }
 
 body {
